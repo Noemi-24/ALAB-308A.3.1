@@ -43,8 +43,7 @@ async function getUserData(id) {
     });
   } catch (error) {
     console.error("An error occurred:", error.message); 
-  }
-  
+  }  
 }
 
 // ==== Valid Numbers ====
