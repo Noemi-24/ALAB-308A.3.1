@@ -167,34 +167,6 @@ npm test
 node src/index.js
 ```
 
-## 📁 Project Files
-
-- `index.js` - Main file with function implementation
-- `database.js` - Simulated database system (do not modify)
-- `README.md` - This file
-
-## 🎓 Key Concepts
-
-### Promises
-Objects that represent the eventual completion or failure of an asynchronous operation. A Promise can be in one of three states:
-- **Pending**: Initial state, neither fulfilled nor rejected
-- **Fulfilled**: Operation completed successfully
-- **Rejected**: Operation failed
-
-### async/await
-Syntactic sugar built on top of Promises that makes asynchronous code look and behave more like synchronous code. Key benefits:
-- More readable and maintainable code
-- Easier error handling with try/catch
-- Better debugging experience
-
-### Promise.all()
-A method that takes an array of Promises and returns a single Promise that resolves when all input Promises have resolved, or rejects when any input Promise rejects. Perfect for running independent operations in parallel.
-
-### Concurrency vs Parallelism
-- **Sequential**: Operations run one after another (slower)
-- **Concurrent**: Multiple operations in progress at the same time (faster)
-- This assignment demonstrates how concurrency improves performance
-
 ## 👨‍💻 Author
 
 **Noemi Delgadillo Roldan**
